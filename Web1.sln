@@ -7,7 +7,6 @@ Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Web1.Api", "Web1.Api\Web1.A
 EndProject
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Web1.Api.Infrastructure.Built", "Web1.Api.Infrastructure.Built\Web1.Api.Infrastructure.Built.csproj", "{52671F58-2E1B-4C95-911E-16D846FA4191}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Web1.Api.Console", "Web1.Api.Console\Web1.Api.Console.csproj", "{52804073-90D0-4CE8-B3F0-4881714E881D}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -23,10 +22,6 @@ Global
 		{52671F58-2E1B-4C95-911E-16D846FA4191}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{52671F58-2E1B-4C95-911E-16D846FA4191}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{52671F58-2E1B-4C95-911E-16D846FA4191}.Release|Any CPU.Build.0 = Release|Any CPU
-		{52804073-90D0-4CE8-B3F0-4881714E881D}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
-		{52804073-90D0-4CE8-B3F0-4881714E881D}.Debug|Any CPU.Build.0 = Debug|Any CPU
-		{52804073-90D0-4CE8-B3F0-4881714E881D}.Release|Any CPU.ActiveCfg = Release|Any CPU
-		{52804073-90D0-4CE8-B3F0-4881714E881D}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
