@@ -3,9 +3,11 @@ Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio Version 17
 VisualStudioVersion = 17.8.34511.84
 MinimumVisualStudioVersion = 10.0.40219.1
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Web1.Api", "Web1.Api\Web1.Api.csproj", "{A36EAFDD-A1C5-4D05-9347-7031CFD9996D}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Web1.Api", "Web1.Api\Web1.Api.csproj", "{A36EAFDD-A1C5-4D05-9347-7031CFD9996D}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Web1.Api.Infrastructure.Built", "Web1.Api.Infrastructure.Built\Web1.Api.Infrastructure.Built.csproj", "{52671F58-2E1B-4C95-911E-16D846FA4191}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Web1.Api.Infrastructure.Built", "Web1.Api.Infrastructure.Built\Web1.Api.Infrastructure.Built.csproj", "{52671F58-2E1B-4C95-911E-16D846FA4191}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Web1.Api.Tests.Unit", "Web1.Api.Tests.Unit\Web1.Api.Tests.Unit.csproj", "{7ECD67D1-BF94-4AF6-930E-DD2FF2647F19}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -21,6 +23,10 @@ Global
 		{52671F58-2E1B-4C95-911E-16D846FA4191}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{52671F58-2E1B-4C95-911E-16D846FA4191}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{52671F58-2E1B-4C95-911E-16D846FA4191}.Release|Any CPU.Build.0 = Release|Any CPU
+		{7ECD67D1-BF94-4AF6-930E-DD2FF2647F19}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{7ECD67D1-BF94-4AF6-930E-DD2FF2647F19}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{7ECD67D1-BF94-4AF6-930E-DD2FF2647F19}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{7ECD67D1-BF94-4AF6-930E-DD2FF2647F19}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
